@@ -1,0 +1,35 @@
+<div id="cards-group">
+          <div class="card-group">
+            <h3>Grupo A</h3>
+          </div>
+           <div class="card-group"></div>
+          <ul>
+            <li>
+
+            </li>
+          </ul>
+        </div>
+
+
+
+ #cards-group {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  background-color: red;
+}
+
+.card-group {
+  padding: 32px 23px;
+  background: green;
+  border-radius: 6px;
+  border-bottom: 2px solid;
+}
+
+.card-group h2{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+}
